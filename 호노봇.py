@@ -22,7 +22,7 @@ async def on_message(message):
     if message.content.startswith('!!!호노봇'):
        await client.send_message(message.channel, "호노봇명령어 \n \n !호노봇말해 (할말) \n !호노봇안녕 \n !호노봇on \n !호노봇off \n "
                                                   "!호노봇몇살이야? \n !호노봇사랑해 \n !호노봇미쳤어? \n !호노봇그만해 \n !호노봇놀아줘 \n "
-                                                  "!호노봇쿨한첫 \n !호노봇귀여운척 \n !호노봇치명적인척 \n !호노봇오늘나어때? \n !호노봇주인님이누구야?"
+                                                  "!호노봇쿨한척 \n !호노봇귀여운척 \n !호노봇치명적인척 \n !호노봇오늘나어때? \n !호노봇주인님이누구야?"
                                                   "\n !호노봇나랑사귈래? ")
     if message.content.startswith('!호노봇안녕'):
         await client.send_message(message.channel, "안녕하세요")
